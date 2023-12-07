@@ -20,3 +20,51 @@ header p {
     margin: 0px;
     padding: 5px 30px;
 }
+
+nav {
+    background-color: #3498db;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+nav img {
+    width: 50px;
+}
+
+.links a {
+    width: min-content;
+    white-space: nowrap;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.links {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 40px;
+    padding: 0;
+}
+
+.burgerMenu .line {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+
+.burgerMenu {
+    background-color: transparent;
+    border: none;
+    display: none;
+    cursor: pointer;
+}
+
+.links a:hover,
+.links .activePage {
+    text-decoration: underline;
+}
