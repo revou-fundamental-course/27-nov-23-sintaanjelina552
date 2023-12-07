@@ -198,6 +198,12 @@ input[type=reset]:hover {
     margin: 0px 40px;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+}
 
 #figureType li:hover,
 #active {
