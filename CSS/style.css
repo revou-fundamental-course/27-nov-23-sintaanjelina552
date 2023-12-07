@@ -113,6 +113,35 @@ main {
 
 }
 
+#figureType ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 4px;
+    background-color: #3498db;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+#figureType li {
+    margin: 0px 0px;
+    padding: 15px 25px;
+}
+
+#figureType li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+#figureType li:hover,
+#active {
+    text-align: center;
+    border: 1px solid white;
+}
+
 @media screen and (max-width: 1200px) {
     #figureType ul {
         flex-direction: column;
