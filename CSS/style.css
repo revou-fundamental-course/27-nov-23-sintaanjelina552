@@ -69,7 +69,21 @@ nav img {
     text-decoration: underline;
 }
 
+main {
+    margin: 50px 50px 200px 50px;
+    padding: 30px 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+#greetings h2,
+#greetings p {
+    margin: 5px;
+    text-align: center;
+}
 
 @media screen and (max-width: 800px) {
     nav {
