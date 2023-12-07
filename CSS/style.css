@@ -1,0 +1,22 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    min-height: 500px;
+}
+
+header,
+footer {
+    background-color: #2980b9;
+    padding: 15px 2px;
+    text-align: center;
+    color: white;
+}
+
+header h2 {
+    margin: 0px;
+}
+
+header p {
+    margin: 0px;
+    padding: 5px 30px;
+}
